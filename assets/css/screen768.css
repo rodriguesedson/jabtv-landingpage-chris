@@ -1,0 +1,72 @@
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-image: url(/assets/icons/hamburger-fechado.png);
+    background-size: contain;
+  }
+
+  .hamburger.active {
+    background-image: url(/assets/icons/hamburger-aberto.png);
+  }
+
+  ul {
+    background-color: #fff;
+    flex-direction: column;
+    position: fixed;
+    left: 100%;
+    top: 5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  ul.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2rem 0;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    max-width: 500px;
+    margin: 2rem auto -6rem;
+    padding: 0;
+  }
+
+  .intro-text h1 {
+    font-size: 2.3rem;
+  }
+
+  .btn {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  iframe {
+    max-width: 26rem;
+  }
+
+  .stand-1 {
+    left: 170px;
+  }
+
+  .stand-2 {
+    left: 225px;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .persons {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

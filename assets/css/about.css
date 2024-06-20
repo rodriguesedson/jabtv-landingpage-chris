@@ -1,0 +1,46 @@
+.about {
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem 0;
+}
+
+.about-bgimage {
+  background-image: url(../images/jab-transformed.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100vw;
+  opacity: 0.4;
+}
+
+.about-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.about-content h3 {
+  font-size: 2.5rem;
+  margin-bottom: -20px;
+}
+
+.about-content p {
+  font-size: 1.2em;
+}
+
+.about-content h3 {
+  text-shadow: 1px 1px 1px #333;
+}
+
+.about-content p {
+  text-shadow: 1px 1px 1px #333;
+  font-size: 1.6rem;
+}
