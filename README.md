@@ -1,5 +1,5 @@
 # jabtv-landingpage-chris
-Landing page project using guide made by Kolade Chris (Freecodecamp) using HTML, CSS and Javascript (made a few changes).
+Landing page project using a guide made by Kolade Chris (Freecodecamp) using HTML, CSS and Javascript (made a few changes).
 
 [Link to website](https://jabtv-test-edson.netlify.app/)
 
