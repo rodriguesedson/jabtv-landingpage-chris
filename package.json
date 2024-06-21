@@ -2,15 +2,8 @@
   "name": "jabtv-landingpage-chris",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-  },
-  "author": "Edson",
+  "scripts": {},
+  "author": "",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
-  },
-  "dependencies": {
-    "express": "^4.19.2"
-  }
+  "description": "Landing page project using guide made by Kolade Chris (Freecodecamp) using HTML, CSS and Javascript"
 }
