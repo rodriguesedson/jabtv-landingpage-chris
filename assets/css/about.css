@@ -7,6 +7,7 @@
   flex-direction: column;
   gap: 1.5rem;
   margin-top: 1rem 0;
+  max-width: 100vw;
 }
 
 .about-bgimage {
@@ -15,7 +16,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
-  width: 100vw;
+  width: 100%;
   opacity: 0.4;
 }
 

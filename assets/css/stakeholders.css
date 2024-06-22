@@ -10,6 +10,7 @@
 
 .stakeholders img {
   border-radius: 0.6rem;
+  max-width: 100%;
 }
 
 .persons {
@@ -17,6 +18,14 @@
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   gap: 1rem;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 0;
+  height: auto;
 }
 
 .name {
